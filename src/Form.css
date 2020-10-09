@@ -1,0 +1,22 @@
+form {
+	display: flex;
+	align-items: left;
+}
+
+.vertical_form {
+	flex-direction: column;
+	/*flex-wrap: wrap;*/
+	width: 290px;
+}
+
+.block_form {
+	width: 800px;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: space-between;
+}
+
+hr {
+	width: 100%;
+	background-color: #ffce00;
+}
